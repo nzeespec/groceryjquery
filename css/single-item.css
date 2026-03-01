@@ -15,14 +15,24 @@
   height: 20px;
   min-width: 20px;
   border-radius: 50%;
-  border: 2px solid #f3760f;
+  border: 2px solid #023c1d;
   appearance: none;
   background: #fff;
   position: relative;
 }
 .single-item input[type="checkbox"]:checked {
-  background: #ea8d3b;
-  border-color: #fa6909;
+  background: #08844bee;
+  border-color: #023c1d;
+}
+
+.single-item input[type="checkbox"]:checked::after {
+  content: "✓";
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .single-item .btn {
