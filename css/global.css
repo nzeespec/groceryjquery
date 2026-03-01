@@ -6,8 +6,10 @@
   box-sizing: border-box;
 }
 body {
-  background: #eee;
+  background: url("../bg.jpeg");
   font-family: Helvetica, sans-serif;
+  background-repeat: no-repeat;
+
   font-weight: 400;
   line-height: 1.2;
   color: #222;
